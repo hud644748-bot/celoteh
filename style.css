@@ -13,18 +13,12 @@ body {
 }
 
 header {
-  border-radius: 8px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   text-align: center;
   gap: 16px;
   padding: 20px 0px;
   background-color: rgb(15, 14, 18);
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 }
 
 .navigasi {
@@ -46,12 +40,6 @@ header {
 
 .judul_web {
   font-size: 50px;
-}
-
-.line-0 {
-  background-color: grey;
-  padding: 2px;
-  place-items: center;
 }
 
 .line {
