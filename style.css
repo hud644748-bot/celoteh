@@ -9,7 +9,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: "Newsreader", serif;
+  /* font-family: "Newsreader", serif; */
+  font-family: "Roboto", serif;
 }
 
 header {
@@ -61,18 +62,12 @@ main {
 }
 
 .judul_konten {
-  font-family: "Roboto", sans-serif;
+  font-family: "Newsreader", sans-serif;
   font-size: 35px;
 }
 
-.judul_subkonten {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  margin: 8px 0px;
-}
-
 .section p {
-  font-size: 23px;
+  font-size: 20px;
   line-height: 30px;
 }
 
